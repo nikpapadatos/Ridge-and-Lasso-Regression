@@ -1,12 +1,12 @@
-# Ridge and Lasso Regression: Theory and Comparison
+# Shrinkage Methods: Lasso and Ridge Regression – Theory and Comparison
 
 ## Project Overview
-This project explores the application of Ridge and Lasso regression techniques, both of which are forms of regularization that address overfitting by penalizing large coefficients. The goal is to compare how these two methods perform in shrinking coefficients and feature selection using a dataset on credit balances.
+This project explores the application of Lasso and Ridge regression, two widely-used shrinkage methods. Both techniques address overfitting by penalizing large coefficients. The goal is to compare their performance in feature selection and coefficient shrinkage using a dataset containing various credit-related factors.
 
-### Key Topics Covered:
-- **Ridge Regression (L2 regularization)**: Shrinks all coefficients towards zero without eliminating any of them. The penalty term is proportional to the square of the coefficients.
-- **Lasso Regression (L1 regularization)**: Shrinks some coefficients and can set some of them to exactly zero, making it useful for feature selection.
-- **Comparison**: Both Ridge and Lasso are compared in terms of their impact on the coefficients, and conclusions are drawn regarding their suitability for different use cases.
+## Key Topics Covered:
+- Ridge Regression (L2 regularization): Shrinks all coefficients towards zero without eliminating any, making it useful when all features contribute to the prediction.
+- Lasso Regression (L1 regularization): Can shrink some coefficients to zero, which is beneficial for feature selection.
+- Comparison: A side-by-side comparison of how Ridge and Lasso affect coefficient estimates and their suitability for different use cases.
 
 ## Dataset
 The dataset used for this analysis is the **Credit dataset**, which contains various credit-related variables like `Income`, `Limit`, `Rating`, and `Balance` (the target variable). The aim is to predict the `Balance` using the other features.
