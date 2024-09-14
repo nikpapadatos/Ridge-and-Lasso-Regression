@@ -38,7 +38,7 @@ The dataset used for this analysis is the **Credit dataset**, which contains var
 - Ridge: By shrinking coefficients, Ridge reduces model variance at the cost of introducing some bias. It is especially useful when preventing overfitting is important.
 - Lasso: Lasso also introduces bias by shrinking coefficients, but because it can set coefficients to zero, it reduces model complexity more aggressively than Ridge. This makes Lasso     better suited for high-dimensional datasets with many irrelevant features.
 
-### 5. Observations and Conclusions
+### 6. Observations and Conclusions
 - Ridge regression tends to shrink all coefficients gradually, with no coefficients being eliminated, even with high alpha values.
 - Lasso regression sets some coefficients to zero, effectively removing less important features as alpha increases.
 - **Key Insight**: Lasso is useful for feature selection, while Ridge is better suited when retaining all features is more important, but controlling their magnitude.
